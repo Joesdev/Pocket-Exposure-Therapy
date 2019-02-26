@@ -1,0 +1,80 @@
+/* Section: Showcase (with nested nasv bar)*/
+
+#showcase #nav #nav-list{
+   justify-content: center;
+}
+
+#showcase #showcase-content{
+   padding-bottom: 4rem;
+}
+
+/* Section: Benefits */
+#benefits{
+   display: flex;
+   flex-direction: column;
+}
+
+#benefits #benefits-content{
+   padding: 2.5rem 1.5rem;
+}
+
+#benefits #benefits-img {
+   height: 17rem;
+   margin: 0;
+   padding: 0;
+}
+
+/* Section: Stats */
+#stats h2 {
+   text-align: center;
+   padding: 0;
+   margin: 1rem 1rem 1.5rem 1rem;
+}
+
+#stats #stats-items{
+   display: flex;
+   flex-direction: column;
+   color: #333;
+   text-align: center;
+}
+
+#stats #stats-items .stats-item p {
+   padding: 0 1rem;
+}
+
+/* Section: Process */
+#process .container #icon-wrapper{
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+#process .container #icon-wrapper .icon-group {
+   margin: 0 0.5rem;
+   width: 40%;
+}
+
+#process .container #icon-wrapper h1 {
+   text-align:center;
+   margin-bottom: 0.5rem;
+}
+
+/* Section: Getting Started */
+#get-started {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+#get-started .items {
+   flex-direction: column;
+   margin: 14rem 0;
+}
+
+#get-started .items .item {
+   padding-top: 2rem;
+   margin-bottom: 3rem;
+}
+
+#get-started .btn {
+   margin: 2rem auto;
+}

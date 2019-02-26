@@ -1,0 +1,30 @@
+/* Section: Benefits */
+#benefits{
+   display: flex;
+   flex-direction: column;
+}
+
+#benefits #benefits-content{
+   padding: 2.5rem 1.5rem;
+}
+
+#benefits #benefits-img {
+   height: 17rem;
+   margin: 0;
+   padding: 0;
+}
+
+/* Section: Stats */
+#stats #stats-items .stats-item {
+   padding-right: 0.5rem;
+   padding-left: 0.5rem;
+}
+
+/* Section: Process */
+#process .container #icon-wrapper .icon-group {
+   margin: 0 0.5rem;
+}
+
+#process .container #icon-wrapper h1 {
+   text-align:center;
+}
